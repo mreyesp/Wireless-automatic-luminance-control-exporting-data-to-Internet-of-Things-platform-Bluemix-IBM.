@@ -1,0 +1,33 @@
+First of all: The rest of the documents, diagrams, etc... will be uploaded soon. Please be patient :)
+In the meantime i let you this description.
+.....................................................................................................
+
+Wireless automatic luminance control, exporting data to Internet of
+Things platform Bluemix IBM.
+
+The purpose of this project is keep automatically, the luminance in a certain
+"working range". The luminance and work state data are sended to internet,
+and are processed using the IoT IBM platform.
+
+- The chip MAX44009 was used to read the luminance data (bus I2C). Atached
+to ESP32 wireless module.
+
+- Luminance control using PWM on a high brightness LED. Programed on
+ESP32 wireless module.
+- An algorithm was designed and programed to automatic control the PWM
+output, keeping the luminance in a given range. Programed on ESP32 wireless
+module.
+
+- The system send the data via TCP protocol over a WiFi connection. Pro-
+gramed on ESP32 wireless module.
+
+- A micro PC (BeagleBone Black) running linux, execute a python software,
+who work as a bridge between the TCP connection and MQTT protocol,
+forwarding the data to Bluemix IBM IoT platform.
+
+- Node Red is used to get the data from Bluemix IBM IoT platform to visualize
+them and also create a notication rule if the system is working out of the
+given boundaries.
+
+- An external system, based on a PIC microcontroller using PWM on a high
+brightness
