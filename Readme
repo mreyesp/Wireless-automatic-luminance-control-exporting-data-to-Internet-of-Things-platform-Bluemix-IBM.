@@ -30,4 +30,5 @@ them and also create a notication rule if the system is working out of the
 given boundaries.
 
 - An external system, based on a PIC microcontroller using PWM on a high
-brightness
+brightness LED and a touch screen to command it, is used to test the main
+system.
