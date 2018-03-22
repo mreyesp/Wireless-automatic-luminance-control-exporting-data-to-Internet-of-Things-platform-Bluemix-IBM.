@@ -16,11 +16,11 @@ clearScreen()
 
 try:
     options = {
-        "org": "2yg4ql",
-        "type": "bbbiotmqtt",
-        "id": "gate",
-        "auth-method": "token",
-        "auth-token": "nHgvbb2!2@EsciCMYT",
+        "org": "your-org",
+        "type": "your-type",
+        "id": "your-id",
+        "auth-method": "your-auth-method",
+        "auth-token": "your-auth-token",
         "clean-session": "true"
     }
     print("Connecting to IBM Bluemix Platform...")
