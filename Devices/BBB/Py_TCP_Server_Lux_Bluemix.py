@@ -15,11 +15,11 @@ port = 1234
 
 # Dictionary: save the options given for your IBM Bluemix account
 options_ibm_count = {
-    "org": "2yg4ql",
-    "type": "bbbiotmqtt",
-    "id": "gate",
+    "org": "your-org",
+    "type": "your-type",
+    "id": "your-id",
     "auth-method": "token",
-    "auth-token": "nHgvbb2!2@EsciCMYT",
+    "auth-token": "your-auth-token",
     "clean-session": "true"
 }
 
